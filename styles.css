@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header, footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+main {
+    padding: 2rem;
+}
+
+#capsule-form {
+    max-width: 400px;
+    margin-bottom: 1rem;
+}
+
+input[type="date"], textarea, button, input[type="file"] {
+    display: block;
+    margin-bottom: 1rem;
+    width: 100%;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+#capsules {
+    list-style: none;
+    padding: 0;
+}
+
+#capsules li {
+    border-bottom: 1px solid #ccc;
+    padding: 1rem 0;
+}
+
+#capsules li:last-child {
+    border-bottom: none;
+}
