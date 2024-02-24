@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Time Capsule Reminder</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Time Capsule Reminder</h1>
+    </header>
+    <main>
+        <section id="create-capsule">
+            <h2>Create Your Time Capsule</h2>
+            <form id="capsule-form">
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="4" cols="50" required></textarea><br>
+                <label for="date">Open Date:</label><br>
+                <input type="date" id="date" name="date" required><br>
+                <label for="media">Upload Media:</label><br>
+                <input type="file" id="media" name="media" accept="image/*, audio/*"><br>
+                <button type="submit">Create Capsule</button>
+            </form>
+        </section>
+        <section id="capsule-list">
+            <h2>Your Time Capsules</h2>
+            <ul id="capsules"></ul>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Time Capsule Reminder</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
